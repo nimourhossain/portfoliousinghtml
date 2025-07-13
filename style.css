@@ -177,6 +177,24 @@ section {
   font-size: 1.2rem;
   color: #555;
 }
+#projects .project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+}
+
+#projects img {
+  width: 650px;
+  height: auto;
+  border-radius: 5px;
+}
+
 .project-item {
   margin-bottom: 2.5rem;
 }
@@ -200,6 +218,24 @@ section {
 .skill-grid p {
   font-size: 1.2rem;
 }
+#education .education-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+}
+
+#education img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
 .education-item {
   margin-bottom: 2.5rem;
 }

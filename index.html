@@ -1,193 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h3>Ni<span>mo</span>ur</h3>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact"><button>Contact</button></a></li>
-        </ul>
-      </nav>
-      <div class="header-content">
-        <div class="intro-text">
-          <h3>Hi, I am</h3>
-          <h1>Mohammad Nimour Hossain</h1>
-          <p>Self-driven and curious web developer with a passion for learning and building creative, real-world solutions.</p>
-          <a href="asset/Nimour.pdf" download><button><i class="fa-solid fa-download"></i> Download Resume</button></a>
-          <a href="#contact" class="contact-btn"><i class="fa-solid fa-phone"></i> Contact</a>
-        </div>
-        <img src="images/hardy.png" alt="Profile Image" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h3>Ni<span>mo</span>ur</h3>
+      <ul>
+        <li><a href="#" data-section="about" class="active">About</a></li>
+        <li><a href="#" data-section="experience">Experience</a></li>
+        <li><a href="#" data-section="projects">Projects</a></li>
+        <li><a href="#" data-section="skills">Skills</a></li>
+        <li><a href="#" data-section="education">Education</a></li>
+        <li><a href="#contact"><button>Contact</button></a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <div class="intro-text">
+        <h3>Hi, I am</h3>
+        <h1>Mohammad Nimour Hossain</h1>
+        <p>Self-driven and curious web developer with a passion for learning and building creative, real-world solutions.</p>
+        <a href="asset/Nimour.pdf" download><button><i class="fa-solid fa-download"></i> Download Resume</button></a>
+        <a href="#contact" class="contact-btn"><i class="fa-solid fa-phone"></i> Contact</a>
       </div>
-    </header>
-    <main>
-      <section id="about">
-        <h3>About Me</h3>
-        <p>I am a Computer Science student at Gopalganj Science and Technology University (GSTU), passionate about coding and problem-solving. I always give 100% effort in everything I work on. During my studies, I have gained experience with technologies like HTML5, CSS, Java, C++, and databases like MySQL and MongoDB. I’m eager to learn and improve my skills as a web developer. I love creating applications that solve real-world problems and make a positive impact on users.</p>
-        <ul>
-          <li><b>Languages:</b> Java, JavaScript, C, C++, HTML, CSS</li>
-          <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-          <li><b>Frameworks & Libraries:</b> Django, Node.js, Bootstrap</li>
-          <li><b>Tools & Technologies:</b> Git, GitHub, Netlify</li>
-        </ul>
-        <div class="about-info">
-          <div><p>Name</p><p>Mohammad Nimour Hossain</p></div>
-          <div><p>Email</p><p>nkyfgk@gmail.com</p></div>
-          <div><p>Date of Birth</p><p>27th November, 2001</p></div>
-          <div><p>From</p><p>Narsingdi, Dhaka</p></div>
-        </div>
-        <p class="goal">I am seeking a challenging role in Software Engineering where I can apply my skills, gain valuable experience, and grow both professionally and personally.</p>
-      </section>
-      <section id="experience">
-        <h3>Experience</h3>
-        <p>I have been learning frontend development for one year. Below is a summary of my main skills and the technologies I use. To learn more about my work, please check out my online resume and project portfolio.</p>
-        <div class="experience-boxes">
-          <div class="experience-box">
-            <img src="images/icons/js.png" alt="JavaScript Icon" />
-            <h4>Vanilla JavaScript</h4>
-            <p>Expertise in core JavaScript with ES6+ features, DOM manipulation, and event handling.</p>
-          </div>
-          <div class="experience-box">
-            <img src="images/icons/react.png" alt="React Icon" />
-            <h4>React</h4>
-            <p>Building dynamic, responsive UIs with React, hooks, and component-based architecture.</p>
-          </div>
-          <div class="experience-box">
-            <img src="images/icons/nodejs.png" alt="Node.js Icon" />
-            <h4>Node.js</h4>
-            <p>Backend development with Node.js, Express, REST APIs, and real-time applications.</p>
-          </div>
-          <div class="experience-box">
-            <img src="images/icons/mongo.png" alt="MongoDB Icon" />
-            <h4>MongoDB</h4>
-            <p>Experienced with NoSQL databases like MongoDB for scalable, flexible data storage.</p>
-          </div>
-        </div>
-        <div class="experience-card">
-          <div class="company-info">
-            <a href="https://esteemsoftbd.com/" target="_blank"><img src="asset/esteem.png" alt="Esteem Soft" /></a>
-            <div>
-              <a href="https://esteemsoftbd.com/" target="_blank">Esteem Soft Limited</a>
-              <p>Industrial Attachment Trainee</p>
-              <ul>
-                <li>Learned and implemented CRUD operations using PHP and phpMyAdmin.</li>
-                <li>Developed a Patient Management System to manage patient records and appointments efficiently.</li>
-                <li>Gained practical experience in backend development and database administration.</li>
-                <li>Improved system performance by optimizing code and database queries.</li>
-                <li><b>Tools:</b> PHP, phpMyAdmin</li>
-              </ul>
-            </div>
-          </div>
-          <div class="duration">January 2025 - February 2025 | Bashundhara, Dhaka</div>
-        </div>
-      </section>
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="project-item">
-          <h4>Simple Portfolio</h4>
-          <p>A Simple Portfolio using HTML & CSS.</p>
-          <a href="https://nimourhossain.github.io/Assignment-1/" target="_blank">View Online</a>
-          <a href="https://github.com/nimourhossain/Assignment-1" target="_blank">View Source</a>
-        </div>
-        <div class="project-item">
-          <h4>Fitness App</h4>
-          <p>A Fitness web app based on HTML and CSS.</p>
-          <a href="https://nimourhossain.github.io/Assignment-2/" target="_blank">View Online</a>
-          <a href="https://github.com/nimourhossain/Assignment-2" target="_blank">View Source</a>
-        </div>
-        <div class="project-item">
-          <h4>Building Management App</h4>
-          <p>A simple and extensible Building Management App based on HTML, CSS, and JS.</p>
-          <a href="https://nimourhossain.github.io/Assingment-3/" target="_blank">View Online</a>
-          <a href="https://github.com/nimourhossain/Assingment-3" target="_blank">View Source</a>
-        </div>
-        <div class="project-item">
-          <h4>Donate Bangladesh App</h4>
-          <p>A Donate Bangladesh App using HTML, CSS, and JS.</p>
-          <a href="https://nimourhossain.github.io/Assingment-5/" target="_blank">View Online</a>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="skill-grid">
-          <div><img src="asset/python.jpg" alt="Python" /><p>Python</p></div>
-          <div><img src="asset/html.png" alt="HTML5" /><p>HTML5</p></div>
-          <div><img src="asset/css.png" alt="CSS3" /><p>CSS3</p></div>
-          <div><img src="asset/mysql.jpg" alt="MySQL" /><p>MySQL</p></div>
-          <div><img src="asset/django.webp" alt="Django" /><p>Django</p></div>
-          <div><img src="asset/git.png" alt="Git" /><p>Git</p></div>
-        </div>
-      </section>
-      <section id="education">
-        <div class="education-item">
-          <h4>B.Sc. in CSE</h4>
-          <p>Gopalganj Science and Technology University, Gopalganj</p>
-          <p><strong>CGPA:</strong> 3.6/4.0 (Running)</p>
-          <p><strong>Relevant Courses:</strong></p>
-          <ul>
-            <li>Data Structures and Algorithms</li>
-            <li>Operating Systems</li>
-            <li>Database Management Systems</li>
-            <li>Computer Networks</li>
-            <li>Software Engineering</li>
-          </ul>
-        </div>
-        <div class="education-item">
-          <h4>HSC (Science)</h4>
-          <p>Narsingdi Govt. College, Narsingdi</p>
-          <p><strong>GPA:</strong> 5.0/5.0</p>
-          <ul>
-            <li>Mathematics</li>
-            <li>Physics</li>
-            <li>Chemistry</li>
-          </ul>
-        </div>
-        <div class="education-item">
-          <h4>SSC (Science)</h4>
-          <p>Sekandardi A.M High School, Narsingdi</p>
-          <p><strong>GPA:</strong> 5.0/5.0</p>
-          <ul>
-            <li>Mathematics</li>
-            <li>Physics</li>
-            <li>Chemistry</li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer id="contact">
-      <div class="contact-info">
-        <h3>Let’s Connect</h3>
-        <p>Feel free to reach out anytime between 9:00 A.M – 8:00 P.M (Sun–Thu).</p>
-        <div class="social-links">
-          <a href="https://facebook.com/" target="_blank"><img src="asset/facebook.png" alt="Facebook" /></a>
-          <a href="https://instagram.com/" target="_blank"><img src="asset/insta.jpeg" alt="Instagram" /></a>
-          <a href="https://twitter.com/" target="_blank"><img src="asset/twitter.png" alt="Twitter" /></a>
-          <a href="https://github.com/nimourhossain" target="_blank"><img src="asset/github.png" alt="GitHub" /></a>
-          <a href="https://www.linkedin.com/in/nimour-hossain-hemal-157370293/" target="_blank"><img src="asset/linkdin.png" alt="LinkedIn" /></a>
-          <a href="mailto:nkyfgk@gmail.com" target="_blank"><img src="asset/gmail.png" alt="Gmail" /></a>
-        </div>
+      <img src="images/hardy.png" alt="Profile Image" />
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Section content will load here -->
+  </main>
+
+  <footer id="contact">
+    <div class="contact-info">
+      <h3>Let’s Connect</h3>
+      <p>Feel free to reach out anytime between 9:00 A.M – 8:00 P.M (Sun–Thu).</p>
+      <div class="social-links">
+        <a href="https://facebook.com/" target="_blank"><img src="asset/facebook.png" alt="Facebook" /></a>
+        <a href="https://instagram.com/" target="_blank"><img src="asset/insta.jpeg" alt="Instagram" /></a>
+        <a href="https://twitter.com/" target="_blank"><img src="asset/twitter.png" alt="Twitter" /></a>
+        <a href="https://github.com/nimourhossain" target="_blank"><img src="asset/github.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/nimour-hossain-hemal-157370293/" target="_blank"><img src="asset/linkdin.png" alt="LinkedIn" /></a>
+        <a href="mailto:nkyfgk@gmail.com" target="_blank"><img src="asset/gmail.png" alt="Gmail" /></a>
       </div>
-      <div class="contact-form">
-        <h3>Let’s Inbox Me</h3>
-        <form action="mailto:nkyfgk@gmail.com" method="POST" enctype="text/plain">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Message" rows="4" required></textarea>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </footer>
-    <div class="footer-bottom">© 2025 Nimour Hossain. All rights reserved.</div>
-  </body>
+    </div>
+    <div class="contact-form">
+      <h3>Let’s Inbox Me</h3>
+      <form action="mailto:nkyfgk@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">© 2025 Nimour Hossain. All rights reserved.</div>
+
+  <script src="main.js"></script>
+</body>
 </html>
